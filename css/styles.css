@@ -1,0 +1,26 @@
+body{
+    background-color: #FFEFE3;
+}
+
+.container-titulo{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.txt-titulo{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.container-input{
+    display: flex;
+    justify-content: center;
+}
+
+.input-consumo{
+    width: 20%;
+    padding: 8px;
+    border-radius: 8px;
+    text-align: center;
+}
