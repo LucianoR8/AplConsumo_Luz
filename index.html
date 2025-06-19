@@ -8,11 +8,25 @@
 </head>
 <body>
     <div class="container-titulo">
-        <h1 class="txt-titulo">Descrição do valor da sua conta de energia elétrica</h1>
+        <h1 class="txt-titulo">Para saber a descrição dos valores da conta de energia elétrica, informe:</h1>
     </div>
 
     <div class="container-input">
-        <input id="consumo" class="input-consumo" type="number" placeholder="Informe o seu consumo mensal em kwh">
+
+        <div class="container-consumo">
+            <label for="consumo" class="txt-conta">Consumo</label>
+            <input id="consumo" class="input-conta input-consumo" type="number" placeholder="em kwh">
+        </div>
+        
+        <div class="container-bandeira">
+            <label for="bandeira" class="txt-conta">Bandeira tarifária</label>
+            <select name="bandeira" id="bandeira" class="input-conta input-bandeira">
+                <option value="0">Verde</option>
+                <option value="0">Amarela</option>
+                <option value="0">Vermelha 1</option>
+                <option value="0">Vermelha 2</option>
+            </select>
+        </div>
     </div>
 
     <div class="boleto-consumo"></div>

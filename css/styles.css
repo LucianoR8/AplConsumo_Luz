@@ -16,11 +16,37 @@ body{
 .container-input{
     display: flex;
     justify-content: center;
+    gap: 2%;
 }
 
-.input-consumo{
-    width: 20%;
-    padding: 8px;
-    border-radius: 8px;
+.container-consumo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-bandeira{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-conta{
+    border-radius: 18px;
     text-align: center;
 }
+.input-consumo{
+    width: 80%;
+    padding: 12px;
+}
+
+.input-bandeira{
+    width: 140%;
+    height: 90%;
+    cursor: pointer;
+}
+
+.txt-conta{
+    font-weight: bold;
+}
+
