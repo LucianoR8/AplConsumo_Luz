@@ -13,20 +13,22 @@
 
     <div class="container-input">
 
-        <div class="container-consumo">
-            <label for="consumo" class="txt-conta">Consumo</label>
+
+            <label for="consumo" class="txt-conta">Consumo:</label>
             <input id="consumo" class="input-conta input-consumo" type="number" placeholder="em kwh">
-        </div>
+
         
-        <div class="container-bandeira">
-            <label for="bandeira" class="txt-conta">Bandeira tarifária</label>
+            <label for="bandeira" class="txt-conta">Bandeira tarifária:</label>
             <select name="bandeira" id="bandeira" class="input-conta input-bandeira">
                 <option value="0">Verde</option>
-                <option value="0">Amarela</option>
-                <option value="0">Vermelha 1</option>
-                <option value="0">Vermelha 2</option>
+                <option value="0.01885">Amarela</option>
+                <option value="0.04463">Vermelha 1</option>
+                <option value="0.07877">Vermelha 2</option>
             </select>
-        </div>
+    </div>
+
+    <div class="container-btn">
+        <button class="btn">Consultar</button>
     </div>
 
     <div class="boleto-consumo"></div>
