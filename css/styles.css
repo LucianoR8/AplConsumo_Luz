@@ -5,7 +5,7 @@ body{
 .container-titulo{
     display: flex;
     justify-content: center;
-    margin-top: 10%;
+    margin-top: 7%;
 }
 
 .txt-titulo{
@@ -47,6 +47,7 @@ body{
     display: flex;
     justify-content: center;
     margin-top: 1%;
+    margin-bottom: 1%;
 }
 
 .btn{
@@ -59,6 +60,20 @@ body{
 }
 
 .boleto-consumo{
-    display: flex;
+    display: none;
+    flex-direction: column;
     justify-content: center;
+    border: 1px solid black;
+    max-width: 25%;
+    padding: 5px 5px 5px 10px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.txt-boleto{
+    text-align: center;
+}
+
+.txt-valor{
+    font-weight: bold;
 }
