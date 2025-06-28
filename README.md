@@ -6,18 +6,18 @@
 
 ### Tecnologias utilizadas:
 
+ - VS Code(Editor de código);
  - HTML5;
  - CSS3;
- - JavScript;
- - Visual Studio Code.
+ - JavScript.
 
 ---
 
 ### Funcionalidades:
 
- - Seleção de bandeira tarifária;
+ - Escolha da bandeira tarifária;
  - Exibição do valor da energia elétrica sem acréscimos
- - Exibição de acréscimos presentes no consumo mensal como o ICMS, COSIP, CONFIS, PIS e Bandeira tarifária.
+ - Exibição detalhada dos valores totais de uma conta de luz como o ICMS, COSIP, CONFIS, PIS e Bandeira tarifária.
 
 ---
 
