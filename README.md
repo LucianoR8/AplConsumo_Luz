@@ -9,7 +9,7 @@
  - VS Code(Editor de código);
  - HTML5;
  - CSS3;
- - JavScript.
+ - JavaScript.
 
 ---
 
@@ -17,7 +17,7 @@
 
  - Escolha da bandeira tarifária;
  - Exibição do valor da energia elétrica sem acréscimos
- - Exibição detalhada dos valores totais de uma conta de luz como o ICMS, COSIP, CONFIS, PIS e Bandeira tarifária.
+ - Exibição detalhada dos valores que compõem uma conta de luz como o ICMS, COSIP, CONFIS, PIS e Bandeira tarifária.
 
 ---
 
