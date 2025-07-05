@@ -6,7 +6,7 @@
 
 ### Tecnologias utilizadas:
 
- - VS Code(Editor de código);
+ - VS Code;
  - HTML5;
  - CSS3;
  - JavaScript.
